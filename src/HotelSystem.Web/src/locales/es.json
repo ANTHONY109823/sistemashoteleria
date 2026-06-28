@@ -1,0 +1,576 @@
+{
+    "common": {
+        "welcome": "Bienvenido",
+        "search": "Buscar",
+        "filter": "Filtrar",
+        "add": "Agregar",
+        "edit": "Editar",
+        "delete": "Eliminar",
+        "cancel": "Cancelar",
+        "save": "Guardar",
+        "confirm": "Confirmar",
+        "back": "Volver",
+        "next": "Siguiente",
+        "previous": "Anterior",
+        "loading": "Cargando...",
+        "noData": "No hay datos disponibles",
+        "error": "Error",
+        "success": "Éxito",
+        "actions": "Acciones",
+        "details": "Detalles",
+        "status": "Estado",
+        "date": "Fecha",
+        "total": "Total",
+        "page": "Página",
+        "of": "de",
+        "showing": "Mostrando",
+        "to": "a",
+        "results": "resultados",
+        "saveChanges": "Guardar Cambios",
+        "retry": "Reintentar",
+        "active": "Activo",
+        "inactive": "Inactivo",
+        "room": "Habitación",
+        "floor": "Piso",
+        "night": "noche"
+    },
+    "sidebar": {
+        "dashboard": "Dashboard",
+        "reservations": "Reservas",
+        "rooms": "Habitaciones",
+        "roomTypes": "Tipos de Habitación",
+        "guests": "Huéspedes",
+        "frontDesk": "Recepción",
+        "housekeeping": "Limpieza",
+        "users": "Usuarios",
+        "reports": "Reportes",
+        "auditLogs": "Auditoría",
+        "settings": "Configuración",
+        "profile": "Perfil",
+        "logout": "Cerrar Sesión"
+    },
+    "dashboard": {
+        "title": "Dashboard",
+        "welcome": "Bienvenido al Sistema de Gestión Hotelera",
+        "subtitle": "Aquí está lo que está sucediendo en tu hotel hoy",
+        "stats": {
+            "totalRooms": "Total de Habitaciones",
+            "availableRooms": "Habitaciones Disponibles",
+            "occupiedRooms": "Habitaciones Ocupadas",
+            "todayCheckIns": "Check-ins Hoy",
+            "todayCheckOuts": "Check-outs Hoy",
+            "totalReservations": "Reservas Totales",
+            "totalRevenue": "Ingresos Totales",
+            "occupancyRate": "Tasa de Ocupación",
+            "highest": "Más alto en 30 días",
+            "lowest": "Más bajo en 30 días"
+        },
+        "dataOverview": {
+            "title": "Vista General de Datos",
+            "subtitle": "Resumen de ingresos y gastos",
+            "income": "Ingresos",
+            "expenses": "Gastos",
+            "activity": "Actividad",
+            "monthly": "Mensual",
+            "weekly": "Semanal",
+            "daily": "Diario"
+        },
+        "salesAnalytics": {
+            "title": "Análisis de Ingresos",
+            "totalIncome": "Ingresos Totales",
+            "today": "Hoy",
+            "weekly": "Semanal",
+            "monthly": "Mensual",
+            "roomRevenue": "Ingresos por Habitaciones",
+            "servicesRevenue": "Ingresos por Servicios",
+            "otherRevenue": "Otros Ingresos",
+            "deposits": "Depósitos"
+        },
+        "performanceDevice": {
+            "title": "Estado de Habitaciones",
+            "totalStatus": "Total Habitaciones",
+            "available": "Disponible",
+            "occupied": "Ocupada",
+            "cleaning": "Limpieza",
+            "maintenance": "Mantenimiento"
+        },
+        "revenueChart": {
+            "title": "Resumen de Ingresos",
+            "income": "Ingresos",
+            "expenses": "Gastos",
+            "last7Days": "Últimos 7 días",
+            "last30Days": "Últimos 30 días"
+        },
+        "recentReservations": "Reservas Recientes",
+        "recentBookings": "Reservas Recientes",
+        "quickActions": "Acciones Rápidas",
+        "createReservation": "Nueva Reserva",
+        "registerGuest": "Registrar Huésped",
+        "viewRooms": "Ver Habitaciones",
+        "viewAll": "Ver Todas",
+        "checkIn": "Check-in",
+        "checkOut": "Check-out",
+        "noRecentBookings": "No hay reservas recientes"
+    },
+    "reservations": {
+        "title": "Reservas",
+        "subtitle": "reservations subtitle",
+        "newReservation": "Nueva Reserva",
+        "searchPlaceholder": "Buscar por huésped, habitación o ID...",
+        "noReservations": "No se encontraron reservas",
+        "status": {
+            "all": "Todas",
+            "confirmed": "Confirmada",
+            "pending": "Pendiente",
+            "checkedIn": "Hospedado",
+            "checkedOut": "Finalizada",
+            "cancelled": "Cancelada"
+        },
+        "guest": "Huésped",
+        "room": "Habitación",
+        "checkIn": "Check-in",
+        "checkOut": "Check-out",
+        "fields": {
+            "id": "ID",
+            "guest": "Huésped",
+            "room": "Habitación",
+            "checkIn": "Check-in",
+            "checkOut": "Check-out",
+            "nights": "Noches",
+            "night": "noche",
+            "adults": "Adultos",
+            "children": "Niños",
+            "totalPrice": "Precio Total",
+            "status": "Estado",
+            "notes": "Notas",
+            "total": "Total"
+        },
+        "card": {
+            "adults": "Adultos",
+            "children": "Niños",
+            "night": "noche",
+            "nights": "noches",
+            "total": "Total",
+            "cancelReservation": "Cancelar Reservación",
+            "checkIn": "Realizar Check-in",
+            "checkOut": "Realizar Check-out",
+            "confirmCheckIn": "¿Está seguro que desea realizar el Check-in para esta reservación?",
+            "confirmCheckOut": "¿Está seguro que desea realizar el Check-out? Esto finalizará la estancia.",
+            "successCheckIn": "Check-in realizado exitosamente",
+            "successCheckOut": "Check-out realizado exitosamente"
+        },
+        "viewToggle": {
+            "cards": "Tarjetas",
+            "table": "Tabla"
+        },
+        "actions": {
+            "viewInvoice": "Ver Factura",
+            "cancel": "Cancelar Reserva",
+            "checkIn": "Realizar Check-in",
+            "checkOut": "Realizar Check-out"
+        },
+        "confirmCancel": "¿Está seguro de cancelar esta reserva?",
+        "cancelSuccess": "Reserva cancelada exitosamente",
+        "createSuccess": "Reserva creada exitosamente",
+        "cancelError": "No se pudo cancelar la reservación",
+        "createError": "No se pudo crear la reservación",
+        "cancelledReservation": "Reservación {{room}} cancelada exitosamente",
+        "confirmCancelDialog": {
+            "title": "Cancelar Reservación",
+            "message": "¿Estás seguro de cancelar la reservación de {{guest}} para la habitación {{room}}? Esta acción no se puede deshacer.",
+            "confirmButton": "Cancelar Reservación",
+            "cancelButton": "Volver"
+        },
+        "invoice": {
+            "preview": "Vista Previa de Factura",
+            "title": "FACTURA",
+            "printInvoice": "Imprimir Factura",
+            "billTo": "Facturar a",
+            "guestId": "ID Huésped",
+            "dateIssued": "Fecha de Emisión",
+            "stayDuration": "Duración de Estadía",
+            "nights": "noches",
+            "description": "Descripción",
+            "unitPrice": "Precio Unitario",
+            "qty": "Cant",
+            "amount": "Monto",
+            "accommodation": "Alojamiento - Habitación {{room}}",
+            "standardRate": "Tarifa Estándar ({{nights}} noches)",
+            "subtotal": "Subtotal",
+            "tax": "Impuesto (10%)",
+            "total": "Total",
+            "thankYou": "¡Gracias por elegir Hotel OS. Esperamos verte pronto de nuevo!",
+            "questions": "Para preguntas sobre esta factura, por favor contacte a la recepción."
+        }
+    },
+    "rooms": {
+        "title": "Habitaciones",
+        "subtitle": "Gestión de habitaciones del hotel",
+        "newRoom": "Nueva Habitación",
+        "addRoom": "Nueva Habitación",
+        "searchPlaceholder": "Buscar por número o tipo...",
+        "allStatuses": "Todos los Estados",
+        "allTypes": "Todos los Tipos",
+        "noRooms": "No se encontraron habitaciones",
+        "noRoomsRegistered": "No hay habitaciones registradas",
+        "noRoomsFiltered": "No se encontraron habitaciones que coincidan con los filtros seleccionados.",
+        "noRoomsDescription": "Comienza agregando habitaciones para gestionar tu inventario hotelero.",
+        "standardRoom": "Habitación Estándar",
+        "status": {
+            "all": "Todas",
+            "available": "Disponible",
+            "occupied": "Ocupada",
+            "maintenance": "Mantenimiento",
+            "cleaning": "Limpieza"
+        },
+        "fields": {
+            "number": "Número",
+            "type": "Tipo",
+            "floor": "Piso",
+            "capacity": "Capacidad",
+            "basePrice": "Precio Base",
+            "status": "Estado",
+            "amenities": "Amenidades"
+        },
+        "actions": {
+            "changeStatus": "Cambiar Estado",
+            "viewDetails": "Ver Detalles"
+        },
+        "updateSuccess": "Habitación actualizada exitosamente",
+        "createSuccess": "Habitación creada exitosamente",
+        "deleteSuccess": "Habitación eliminada exitosamente",
+        "editRoom": "Editar Habitación",
+        "toggleActive": "Activar/Desactivar",
+        "inactive": "Inactiva",
+        "active": "Activa",
+        "confirmDeactivate": "¿Está seguro que desea desactivar esta habitación?",
+        "confirmActivate": "¿Está seguro que desea activar esta habitación?",
+        "deactivateSuccess": "Habitación desactivada exitosamente",
+        "activateSuccess": "Habitación activada exitosamente",
+        "errors": {
+            "loadTypes": "No se pudieron cargar los tipos de habitación"
+        }
+    },
+    "roomTypes": {
+        "title": "Tipos de Habitación",
+        "subtitle": "Gestionar tipos de habitaciones del hotel",
+        "newType": "Nuevo Tipo",
+        "addRoomType": "Agregar Tipo de Habitación",
+        "maxCapacity": "Capacidad Máxima",
+        "noDescription": "Sin descripción disponible",
+        "noRoomTypes": "No se encontraron tipos de habitación",
+        "fields": {
+            "name": "Nombre",
+            "description": "Descripción",
+            "capacity": "Capacidad",
+            "basePrice": "Precio Base",
+            "amenities": "Amenidades",
+            "color": "Color"
+        },
+        "colorHelp": "Selecciona un color para identificar este tipo de habitación",
+        "createSuccess": "Tipo de habitación creado exitosamente",
+        "updateSuccess": "Tipo de habitación actualizado exitosamente",
+        "editType": "Editar Tipo de Habitación",
+        "placeholders": {
+            "name": "ej. Suite de Lujo"
+        }
+    },
+    "guests": {
+        "title": "Huéspedes",
+        "subtitle": "Gestión de huéspedes del hotel",
+        "newGuest": "Nuevo Huésped",
+        "registerGuest": "Registrar Huésped",
+        "contactInfo": "Información de Contacto",
+        "identification": "Identificación",
+        "noGuests": "No se encontraron huéspedes",
+        "noGuestsStart": "No hay huéspedes registrados",
+        "noGuestsFiltered": "No se encontraron huéspedes que coincidan con su búsqueda.",
+        "noGuestsDescription": "Comienza registrando tu primer huésped para gestionar reservas y servicios.",
+        "searchPlaceholder": "Buscar por nombre, email o teléfono...",
+        "fields": {
+            "firstName": "Nombre",
+            "lastName": "Apellido",
+            "email": "Email",
+            "phone": "Teléfono",
+            "idNumber": "Número de Identificación",
+            "address": "Dirección",
+            "dateOfBirth": "Fecha de Nacimiento"
+        },
+        "actions": {
+            "viewHistory": "Ver Historial",
+            "edit": "Editar",
+            "delete": "Eliminar",
+            "toggleActive": "Activar/Desactivar"
+        },
+        "updateSuccess": "Huésped actualizado exitosamente",
+        "createSuccess": "Huésped creado exitosamente",
+        "deleteSuccess": "Huésped eliminado exitosamente",
+        "confirmDeactivate": "¿Está seguro que desea desactivar este huésped?",
+        "confirmActivate": "¿Está seguro que desea activar este huésped?",
+        "deactivateSuccess": "Huésped desactivado exitosamente",
+        "activateSuccess": "Huésped activado exitosamente"
+    },
+    "frontDesk": {
+        "title": "Recepción",
+        "subtitle": "Gestión de llegadas y salidas de huéspedes",
+        "liveRoomRack": "Estado de Habitaciones en Tiempo Real",
+        "incomingArrivals": "Próximas Llegadas",
+        "activeStays": "Estancias Activas",
+        "todayCheckIns": "Check-ins de Hoy",
+        "todayCheckOuts": "Check-outs de Hoy",
+        "pendingCheckIns": "Check-ins Pendientes",
+        "pendingCheckOuts": "Check-outs Pendientes",
+        "noPendingArrivals": "No hay llegadas pendientes",
+        "noActiveStays": "No hay estancias activas",
+        "checkIn": "Check-in",
+        "checkOut": "Check-out",
+        "confirmCheckIn": "¿Proceder con el Check-in para",
+        "confirmCheckOut": "¿Proceder con el Check-out para",
+        "checkInSuccess": "Check-in realizado exitosamente",
+        "checkOutSuccess": "Check-out realizado exitosamente",
+        "loadError": "Error al cargar datos de Recepción",
+        "checkInError": "Error en Check-in",
+        "checkOutError": "Error en Check-out",
+        "dailyReport": "Reporte Diario"
+    },
+    "housekeeping": {
+        "title": "Limpieza",
+        "subtitle": "housekeeping subtitle",
+        "roomsToClean": "Habitaciones por Limpiar",
+        "cleaningInProgress": "Limpieza en Progreso",
+        "completed": "Completadas Hoy",
+        "markAsClean": "Marcar como Limpia",
+        "markedAsClean": "marcada como limpia",
+        "markedAsCleaning": "marcada para limpieza",
+        "assignCleaner": "Asignar Personal",
+        "requestCleaning": "Solicitar Limpieza",
+        "currentlyOccupied": "Actualmente Ocupada",
+        "cleaningNeeded": "Requieren Limpieza",
+        "occupiedRooms": "Habitaciones Ocupadas",
+        "inMaintenance": "En Mantenimiento",
+        "cleanRooms": "Limpias",
+        "allClean": "¡Todo Limpio!",
+        "noTasks": "No hay tareas de limpieza pendientes",
+        "printReport": "Reporte de Limpieza",
+        "refresh": "Actualizar"
+    },
+    "validations": {
+        "room": {
+            "alreadyOccupied": "La habitación ya está ocupada",
+            "needsCleaning": "La habitación necesita limpieza antes del check-in",
+            "inMaintenance": "La habitación está en mantenimiento",
+            "notOccupied": "La habitación no está ocupada",
+            "alreadyClean": "La habitación ya está limpia",
+            "stillOccupied": "La habitación aún está ocupada",
+            "invalidTransition": "Cambio de estado no permitido"
+        },
+        "tooltip": {
+            "alreadyOccupied": "Esta habitación ya está ocupada",
+            "needsCleaning": "Debe limpiarse antes de permitir check-in",
+            "inMaintenance": "Debe completarse el mantenimiento primero",
+            "notOccupied": "Solo disponible para habitaciones ocupadas",
+            "alreadyClean": "Esta habitación ya está disponible",
+            "stillOccupied": "No se puede marcar como limpia mientras está ocupada",
+            "notAvailable": "Acción no disponible para este estado"
+        }
+    },
+    "users": {
+        "title": "Usuarios",
+        "subtitle": "Administrar acceso al sistema y cuentas de personal",
+        "newUser": "Nuevo Usuario",
+        "addUser": "Agregar Usuario",
+        "editUser": "Editar Usuario",
+        "activate": "Activar",
+        "deactivate": "Desactivar",
+        "searchPlaceholder": "Buscar por nombre, email o usuario...",
+        "noUsersFound": "No se encontraron usuarios que coincidan con su búsqueda.",
+        "confirm": {
+            "deleteTitle": "Eliminar Usuario",
+            "deleteMessage": "¿Está seguro de que desea eliminar a {{name}}?",
+            "statusTitle": "Actualizar Estado",
+            "statusMessage": "¿Está seguro de que desea cambiar el estado de {{name}}?"
+        },
+        "fields": {
+            "firstName": "Nombre",
+            "lastName": "Apellido",
+            "username": "Nombre de Usuario",
+            "email": "Email",
+            "fullName": "Nombre Completo",
+            "role": "Rol",
+            "isActive": "Activo",
+            "password": "Contraseña"
+        },
+        "roles": {
+            "admin": "Administrador",
+            "receptionist": "Recepcionista",
+            "viewer": "Visualizador",
+            "staff": "Personal"
+        },
+        "createSuccess": "Usuario creado exitosamente",
+        "updateSuccess": "Usuario actualizado exitosamente",
+        "deleteSuccess": "Usuario eliminado exitosamente"
+    },
+    "reports": {
+        "title": "Reportes Avanzados",
+        "subtitle": "Inteligencia de negocio y analítica",
+        "loading": "Cargando reportes...",
+        "error": "Error al cargar reportes",
+        "noData": "No hay datos disponibles",
+        "dateRange": {
+            "from": "Desde",
+            "to": "Hasta",
+            "update": "Actualizar"
+        },
+        "export": {
+            "exportToPDF": "Exportar a PDF",
+            "excel": "Exportar Excel"
+        },
+        "charts": {
+            "revenueTrend": "Tendencia de Ingresos",
+            "revenueByRoomType": "Ingresos por Tipo de Habitación",
+            "occupancyTrend": "Tendencia de Ocupación",
+            "guestsByCountry": "Huéspedes por País (Top 10)",
+            "revenue": "Ingresos",
+            "occupancy": "Ocupación %"
+        },
+        "metrics": {
+            "totalRevenue": "Ingresos Totales",
+            "occupancyRate": "Tasa de Ocupación",
+            "totalGuests": "Total de Huéspedes",
+            "avgOccupancy": "Ocupación Promedio",
+            "avgDailyRate": "Tarifa Diaria Promedio",
+            "ofRooms": "de",
+            "rooms": "habitaciones",
+            "newThisMonth": "nuevos este mes"
+        }
+    },
+    "auditLogs": {
+        "title": "Auditoría",
+        "searchPlaceholder": "Buscar en logs...",
+        "fields": {
+            "timestamp": "Fecha y Hora",
+            "user": "Usuario",
+            "action": "Acción",
+            "entity": "Entidad",
+            "entityId": "ID Entidad",
+            "details": "Detalles"
+        },
+        "actions": {
+            "create": "Crear",
+            "update": "Actualizar",
+            "delete": "Eliminar",
+            "login": "Inicio de Sesión",
+            "logout": "Cierre de Sesión"
+        }
+    },
+    "profile": {
+        "title": "Mi Perfil",
+        "personalInfo": "Información Personal",
+        "changePassword": "Cambiar Contraseña",
+        "fields": {
+            "username": "Usuario",
+            "email": "Email",
+            "fullName": "Nombre Completo",
+            "currentPassword": "Contraseña Actual",
+            "newPassword": "Nueva Contraseña",
+            "confirmPassword": "Confirmar Contraseña"
+        },
+        "updateSuccess": "Perfil actualizado exitosamente",
+        "passwordChangeSuccess": "Contraseña cambiada exitosamente",
+        "passwordMismatch": "Las contraseñas no coinciden"
+    },
+    "settings": {
+        "title": "Configuración",
+        "subtitle": "Configure su sistema hotelero",
+        "tabs": {
+            "company": "Empresa",
+            "regional": "Regional",
+            "system": "Sistema"
+        },
+        "company": {
+            "title": "Información de la Empresa",
+            "subtitle": "Detalles sobre su organización.",
+            "name": "Nombre de la Empresa",
+            "address": "Dirección",
+            "phone": "Teléfono",
+            "email": "Correo Electrónico",
+            "website": "Sitio Web",
+            "taxId": "RUC / ID Fiscal",
+            "logo": "Logotipo de la Empresa",
+            "removeLogo": "Eliminar logo",
+            "uploadLogo": "Subir Logo",
+            "logoHint": "PNG o JPG hasta 2MB. Tamaño recomendado: 200x200px."
+        },
+        "regional": {
+            "title": "Configuración Regional",
+            "subtitle": "Configure idioma, moneda y hora.",
+            "language": "Idioma",
+            "currency": "Moneda",
+            "timezone": "Zona Horaria",
+            "dateFormat": "Formato de Fecha",
+            "lang": {
+                "en": "Inglés",
+                "es": "Español",
+                "fr": "Francés",
+                "de": "Alemán"
+            }
+        },
+        "system": {
+            "title": "Preferencias del Sistema",
+            "subtitle": "Comportamiento general y valores predeterminados.",
+            "checkInTime": "Hora de Check-in predeterminada",
+            "checkOutTime": "Hora de Check-out predeterminada",
+            "maxGuests": "Máx. Huéspedes por Habitación",
+            "onlineBookings": "Habilitar Reservas en Línea",
+            "enableOnlineBookingsDesc": "Permitir a los huéspedes reservar habitaciones directamente desde su sitio web.",
+            "sessionTimeout": "Tiempo de espera de sesión"
+        },
+        "general": "General",
+        "appearance": "Apariencia",
+        "notifications": "Notificaciones",
+        "language": "Idioma",
+        "theme": {
+            "label": "Tema",
+            "light": "Claro",
+            "dark": "Oscuro",
+            "auto": "Automático"
+        },
+        "currency": {
+            "label": "Moneda",
+            "usd": "Dólar (USD)",
+            "eur": "Euro (EUR)",
+            "mxn": "Peso Mexicano (MXN)"
+        },
+        "dateFormat": {
+            "label": "Formato de Fecha",
+            "ddmmyyyy": "DD/MM/YYYY",
+            "mmddyyyy": "MM/DD/YYYY",
+            "yyyymmdd": "YYYY-MM-DD"
+        },
+        "saveSuccess": "Configuración guardada exitosamente",
+        "noData": "No se encontraron configuraciones",
+        "noDataDesc": "No se pudieron cargar las configuraciones. Por favor, inténtelo de nuevo."
+    },
+    "login": {
+        "title": "Iniciar Sesión",
+        "subtitle": "Sistema de Gestión Hotelera",
+        "username": "Usuario o Email",
+        "password": "Contraseña",
+        "rememberMe": "Recordarme",
+        "forgotPassword": "¿Olvidaste tu contraseña?",
+        "signIn": "Ingresar",
+        "invalidCredentials": "Credenciales inválidas",
+        "loginSuccess": "Inicio de sesión exitoso"
+    },
+    "navbar": {
+        "notifications": "Notificaciones",
+        "profile": "Perfil",
+        "settings": "Configuración",
+        "logout": "Cerrar Sesión",
+        "language": {
+            "label": "Idioma",
+            "es": "Español",
+            "en": "English"
+        }
+    }
+}

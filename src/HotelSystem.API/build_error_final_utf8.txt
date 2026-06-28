@@ -1,0 +1,19 @@
+﻿  Determinando los proyectos que se van a restaurar...
+  Todos los proyectos est├ín actualizados para la restauraci├│n.
+  HotelSystem.Domain -> C:\Webs\CSharp\sistemahoteleria\src\HotelSystem.Domain\bin\Debug\net10.0\HotelSystem.Domain.dll
+  HotelSystem.Application -> C:\Webs\CSharp\sistemahoteleria\src\HotelSystem.Application\bin\Debug\net10.0\HotelSystem.Application.dll
+C:\Webs\CSharp\sistemahoteleria\src\HotelSystem.Infrastructure\InfrastructureServiceRegistration.cs(44,88): warning CS8604: Posible argumento de referencia nulo para el par├ímetro "s" en "byte[] Encoding.GetBytes(string s)". [C:\Webs\CSharp\sistemahoteleria\src\HotelSystem.Infrastructure\HotelSystem.Infrastructure.csproj]
+C:\Webs\CSharp\sistemahoteleria\src\HotelSystem.Infrastructure\Persistence\HotelDbContext.cs(48,34): error CS1061: "Room" no contiene una definici├│n para "PricePerNight" ni un m├®todo de extensi├│n accesible "PricePerNight" que acepte un primer argumento del tipo "Room" (┬┐falta alguna directiva using o una referencia de ensamblado?) [C:\Webs\CSharp\sistemahoteleria\src\HotelSystem.Infrastructure\HotelSystem.Infrastructure.csproj]
+C:\Webs\CSharp\sistemahoteleria\src\HotelSystem.Infrastructure\Services\AuthService.cs(45,28): warning CS8601: Posible asignaci├│n de referencia nula. [C:\Webs\CSharp\sistemahoteleria\src\HotelSystem.Infrastructure\HotelSystem.Infrastructure.csproj]
+C:\Webs\CSharp\sistemahoteleria\src\HotelSystem.Infrastructure\Services\AuthService.cs(46,25): warning CS8601: Posible asignaci├│n de referencia nula. [C:\Webs\CSharp\sistemahoteleria\src\HotelSystem.Infrastructure\HotelSystem.Infrastructure.csproj]
+
+ERROR al compilar.
+
+C:\Webs\CSharp\sistemahoteleria\src\HotelSystem.Infrastructure\InfrastructureServiceRegistration.cs(44,88): warning CS8604: Posible argumento de referencia nulo para el par├ímetro "s" en "byte[] Encoding.GetBytes(string s)". [C:\Webs\CSharp\sistemahoteleria\src\HotelSystem.Infrastructure\HotelSystem.Infrastructure.csproj]
+C:\Webs\CSharp\sistemahoteleria\src\HotelSystem.Infrastructure\Services\AuthService.cs(45,28): warning CS8601: Posible asignaci├│n de referencia nula. [C:\Webs\CSharp\sistemahoteleria\src\HotelSystem.Infrastructure\HotelSystem.Infrastructure.csproj]
+C:\Webs\CSharp\sistemahoteleria\src\HotelSystem.Infrastructure\Services\AuthService.cs(46,25): warning CS8601: Posible asignaci├│n de referencia nula. [C:\Webs\CSharp\sistemahoteleria\src\HotelSystem.Infrastructure\HotelSystem.Infrastructure.csproj]
+C:\Webs\CSharp\sistemahoteleria\src\HotelSystem.Infrastructure\Persistence\HotelDbContext.cs(48,34): error CS1061: "Room" no contiene una definici├│n para "PricePerNight" ni un m├®todo de extensi├│n accesible "PricePerNight" que acepte un primer argumento del tipo "Room" (┬┐falta alguna directiva using o una referencia de ensamblado?) [C:\Webs\CSharp\sistemahoteleria\src\HotelSystem.Infrastructure\HotelSystem.Infrastructure.csproj]
+    3 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:02.99

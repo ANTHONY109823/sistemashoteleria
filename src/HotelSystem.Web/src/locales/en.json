@@ -1,0 +1,505 @@
+{
+    "common": {
+        "welcome": "Welcome",
+        "search": "Search",
+        "filter": "Filter",
+        "add": "Add",
+        "edit": "Edit",
+        "delete": "Delete",
+        "cancel": "Cancel",
+        "save": "Save",
+        "confirm": "Confirm",
+        "back": "Back",
+        "next": "Next",
+        "previous": "Previous",
+        "loading": "Loading...",
+        "noData": "No data available",
+        "error": "Error",
+        "success": "Success",
+        "actions": "Actions",
+        "details": "Details",
+        "status": "Status",
+        "date": "Date",
+        "total": "Total",
+        "page": "Page",
+        "of": "of",
+        "showing": "Showing",
+        "to": "to",
+        "results": "results",
+        "create": "Create",
+        "update": "Update",
+        "yes": "Yes",
+        "no": "No",
+        "warning": "Warning",
+        "info": "Information",
+        "view": "View",
+        "close": "Close",
+        "floor": "Floor",
+        "night": "night",
+        "excel": "Excel",
+        "pdf": "PDF",
+        "exportToExcel": "Export to Excel",
+        "exportToPDF": "Export to PDF",
+        "select": "Select...",
+        "saving": "Saving...",
+        "saveChanges": "Save Changes",
+        "retry": "Retry",
+        "active": "Active",
+        "inactive": "Inactive",
+        "room": "Room"
+    },
+    "sidebar": {
+        "dashboard": "Dashboard",
+        "reservations": "Reservations",
+        "rooms": "Rooms",
+        "roomTypes": "Room Types",
+        "guests": "Guests",
+        "frontDesk": "Front Desk",
+        "housekeeping": "Housekeeping",
+        "users": "Users",
+        "reports": "Reports",
+        "auditLogs": "Audit Logs",
+        "settings": "Settings",
+        "profile": "Profile",
+        "logout": "Logout"
+    },
+    "dashboard": {
+        "title": "Dashboard",
+        "welcome": "Welcome to Hotel Management System",
+        "subtitle": "Here's what's happening in your hotel today",
+        "stats": {
+            "totalRooms": "Total Rooms",
+            "availableRooms": "Available Rooms",
+            "occupiedRooms": "Occupied Rooms",
+            "todayCheckIns": "Today Check-ins",
+            "todayCheckOuts": "Today Check-outs",
+            "totalReservations": "Total Reservations",
+            "totalRevenue": "Total Revenue",
+            "occupancyRate": "Occupancy Rate",
+            "bookings": "Total Bookings",
+            "occupancy": "Occupancy Rate"
+        },
+        "revenueChart": "Revenue Overview",
+        "recentReservations": "Recent Reservations",
+        "recentBookings": "Recent Bookings",
+        "quickActions": "Quick Actions",
+        "createReservation": "New Reservation",
+        "registerGuest": "Register Guest",
+        "viewRooms": "View Rooms",
+        "viewAll": "View All",
+        "checkIn": "Check-in",
+        "checkOut": "Check-out",
+        "noRecentBookings": "No recent bookings"
+    },
+    "reservations": {
+        "title": "Reservations",
+        "newReservation": "New Reservation",
+        "searchPlaceholder": "Search by guest, room or ID...",
+        "status": {
+            "all": "All",
+            "confirmed": "Confirmed",
+            "pending": "Pending",
+            "checkedIn": "Checked In",
+            "checkedOut": "Checked Out",
+            "cancelled": "Cancelled"
+        },
+        "fields": {
+            "id": "ID",
+            "guest": "Guest",
+            "room": "Room",
+            "checkIn": "Check-in",
+            "checkOut": "Check-out",
+            "nights": "Nights",
+            "night": "night",
+            "adults": "Adults",
+            "children": "Children",
+            "totalPrice": "Total Price",
+            "status": "Status",
+            "notes": "Notes"
+        },
+        "card": {
+            "adults": "Adults",
+            "children": "Children",
+            "night": "night",
+            "nights": "nights",
+            "total": "Total",
+            "cancelReservation": "Cancel Reservation"
+        },
+        "viewToggle": {
+            "cards": "Cards",
+            "table": "Table"
+        },
+        "actions": {
+            "viewInvoice": "View Invoice",
+            "cancel": "Cancel Reservation",
+            "checkIn": "Perform Check-in",
+            "checkOut": "Perform Check-out"
+        },
+        "confirmCancel": "Are you sure you want to cancel this reservation?",
+        "cancelSuccess": "Reservation cancelled successfully",
+        "createSuccess": "Reservation created successfully",
+        "cancelError": "Could not cancel reservation",
+        "createError": "Could not create reservation",
+        "cancelledReservation": "Reservation {{room}} cancelled successfully",
+        "checkIn": "Perform Check-in",
+        "checkOut": "Perform Check-out",
+        "confirmCheckIn": "Are you sure you want to check-in this reservation?",
+        "confirmCheckOut": "Are you sure you want to check-out? This will finalize the stay.",
+        "successCheckIn": "Check-in performed successfully",
+        "successCheckOut": "Check-out performed successfully",
+        "confirmCancelDialog": {
+            "title": "Cancel Reservation",
+            "message": "Are you sure you want to cancel the reservation for {{guest}} in room {{room}}? This action cannot be undone.",
+            "confirmButton": "Cancel Reservation",
+            "cancelButton": "Go Back"
+        },
+        "invoice": {
+            "preview": "Invoice Preview",
+            "title": "INVOICE",
+            "printInvoice": "Print Invoice",
+            "billTo": "Bill To",
+            "guestId": "Guest ID",
+            "dateIssued": "Date Issued",
+            "stayDuration": "Stay Duration",
+            "nights": "nights",
+            "description": "Description",
+            "unitPrice": "Unit Price",
+            "qty": "Qty",
+            "amount": "Amount",
+            "accommodation": "Accommodation - Room {{room}}",
+            "standardRate": "Standard Rate ({{nights}} nights)",
+            "subtotal": "Subtotal",
+            "tax": "Tax (10%)",
+            "total": "Total",
+            "thankYou": "Thank you for choosing Hotel OS. We hope to see you again soon!",
+            "questions": "For questions concerning this invoice, please contact front desk."
+        }
+    },
+    "rooms": {
+        "title": "Rooms",
+        "subtitle": "Hotel rooms management",
+        "newRoom": "New Room",
+        "addRoom": "New Room",
+        "searchPlaceholder": "Search by number or type...",
+        "allStatuses": "All Statuses",
+        "allTypes": "All Types",
+        "noRooms": "No rooms found",
+        "noRoomsRegistered": "No rooms registered",
+        "noRoomsFiltered": "No rooms found matching the selected filters.",
+        "noRoomsDescription": "Start by adding rooms to manage your hotel inventory.",
+        "standardRoom": "Standard Room",
+        "status": {
+            "all": "All",
+            "available": "Available",
+            "occupied": "Occupied",
+            "maintenance": "Maintenance",
+            "cleaning": "Cleaning"
+        },
+        "fields": {
+            "number": "Number",
+            "type": "Type",
+            "floor": "Floor",
+            "capacity": "Capacity",
+            "basePrice": "Base Price",
+            "status": "Status",
+            "amenities": "Amenities"
+        },
+        "actions": {
+            "changeStatus": "Change Status",
+            "viewDetails": "View Details"
+        },
+        "updateSuccess": "Room updated successfully",
+        "createSuccess": "Room created successfully",
+        "deleteSuccess": "Room deleted successfully",
+        "editRoom": "Edit Room",
+        "toggleActive": "Activate/Deactivate",
+        "inactive": "Inactive",
+        "active": "Active",
+        "confirmDeactivate": "Are you sure you want to deactivate this room?",
+        "confirmActivate": "Are you sure you want to activate this room?",
+        "deactivateSuccess": "Room deactivated successfully",
+        "activateSuccess": "Room activated successfully",
+        "errors": {
+            "loadTypes": "Failed to load room types"
+        }
+    },
+    "roomTypes": {
+        "title": "Room Types",
+        "subtitle": "Manage hotel room types",
+        "newType": "New Type",
+        "addRoomType": "Add Room Type",
+        "maxCapacity": "Max Capacity",
+        "noDescription": "No description available",
+        "noRoomTypes": "No room types found",
+        "fields": {
+            "name": "Name",
+            "description": "Description",
+            "capacity": "Capacity",
+            "basePrice": "Base Price",
+            "amenities": "Amenities"
+        },
+        "createSuccess": "Room type created successfully",
+        "updateSuccess": "Room type updated successfully",
+        "editType": "Edit Room Type",
+        "placeholders": {
+            "name": "e.g. Deluxe Suite"
+        }
+    },
+    "guests": {
+        "title": "Guests",
+        "subtitle": "Manage hotel guests",
+        "newGuest": "New Guest",
+        "registerGuest": "Register Guest",
+        "contactInfo": "Contact Info",
+        "identification": "Identification",
+        "noGuests": "No guests found",
+        "noGuestsStart": "No guests registered",
+        "noGuestsFiltered": "No guests found matching your search.",
+        "noGuestsDescription": "Start by registering your first guest to manage reservations.",
+        "searchPlaceholder": "Search by name, email or phone...",
+        "fields": {
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "Email",
+            "phone": "Phone",
+            "idNumber": "ID Number",
+            "address": "Address",
+            "dateOfBirth": "Date of Birth"
+        },
+        "actions": {
+            "viewHistory": "View History",
+            "edit": "Edit",
+            "delete": "Delete",
+            "toggleActive": "Activate/Deactivate"
+        },
+        "updateSuccess": "Guest updated successfully",
+        "createSuccess": "Guest created successfully",
+        "deleteSuccess": "Guest deleted successfully",
+        "confirmDeactivate": "Are you sure you want to deactivate this guest?",
+        "confirmActivate": "Are you sure you want to activate this guest?",
+        "deactivateSuccess": "Guest deactivated successfully",
+        "activateSuccess": "Guest activated successfully"
+    },
+    "frontDesk": {
+        "title": "Front Desk",
+        "subtitle": "Guest check-ins and check-outs management",
+        "liveRoomRack": "Live Room Status",
+        "incomingArrivals": "Incoming Arrivals",
+        "activeStays": "Active Stays",
+        "todayCheckIns": "Today's Check-ins",
+        "todayCheckOuts": "Today's Check-outs",
+        "pendingCheckIns": "Pending Check-ins",
+        "pendingCheckOuts": "Pending Check-outs",
+        "noPendingArrivals": "No pending arrivals",
+        "noActiveStays": "No active stays",
+        "checkIn": "Check-in",
+        "checkOut": "Check-out",
+        "confirmCheckIn": "Proceed with Check-in for",
+        "confirmCheckOut": "Proceed with Check-out for",
+        "checkInSuccess": "Check-in performed successfully",
+        "checkOutSuccess": "Check-out performed successfully",
+        "loadError": "Failed to load Front Desk data",
+        "checkInError": "Check-in failed",
+        "checkOutError": "Check-out failed",
+        "dailyReport": "Daily Report"
+    },
+    "housekeeping": {
+        "title": "Housekeeping",
+        "roomsToClean": "Rooms to Clean",
+        "cleaningInProgress": "Cleaning in Progress",
+        "completed": "Completed Today",
+        "markAsClean": "Mark as Clean",
+        "assignCleaner": "Assign Staff"
+    },
+    "users": {
+        "title": "Users",
+        "subtitle": "Manage system access and staff accounts",
+        "newUser": "New User",
+        "addUser": "Add User",
+        "editUser": "Edit User",
+        "activate": "Activate",
+        "deactivate": "Deactivate",
+        "searchPlaceholder": "Search by name, email or username...",
+        "noUsersFound": "No users found matching your search.",
+        "confirm": {
+            "deleteTitle": "Delete User",
+            "deleteMessage": "Are you sure you want to delete {{name}}?",
+            "statusTitle": "Update Status",
+            "statusMessage": "Are you sure you want to change the status of {{name}}?"
+        },
+        "fields": {
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "username": "Username",
+            "email": "Email",
+            "fullName": "Full Name",
+            "role": "Role",
+            "isActive": "Active",
+            "password": "Password"
+        },
+        "roles": {
+            "admin": "Administrator",
+            "receptionist": "Receptionist",
+            "viewer": "Viewer",
+            "staff": "Staff"
+        },
+        "createSuccess": "User created successfully",
+        "updateSuccess": "User updated successfully",
+        "deleteSuccess": "User deleted successfully"
+    },
+    "reports": {
+        "title": "Reports",
+        "revenue": "Revenue",
+        "occupancy": "Occupancy",
+        "guestStats": "Guest Statistics",
+        "dateRange": "Date Range",
+        "from": "From",
+        "to": "To",
+        "update": "Update",
+        "export": {
+            "pdf": "Export PDF",
+            "excel": "Export Excel"
+        },
+        "charts": {
+            "revenueTrend": "Revenue Trend",
+            "revenueByRoomType": "Revenue by Room Type",
+            "occupancyTrend": "Occupancy Trend",
+            "guestsByCountry": "Guests by Country"
+        },
+        "metrics": {
+            "totalRevenue": "Total Revenue",
+            "avgOccupancy": "Average Occupancy",
+            "totalGuests": "Total Guests",
+            "avgDailyRate": "Average Daily Rate"
+        }
+    },
+    "auditLogs": {
+        "title": "Audit Logs",
+        "searchPlaceholder": "Search in logs...",
+        "fields": {
+            "timestamp": "Timestamp",
+            "user": "User",
+            "action": "Action",
+            "entity": "Entity",
+            "entityId": "Entity ID",
+            "details": "Details"
+        },
+        "actions": {
+            "create": "Create",
+            "update": "Update",
+            "delete": "Delete",
+            "login": "Login",
+            "logout": "Logout"
+        }
+    },
+    "profile": {
+        "title": "My Profile",
+        "personalInfo": "Personal Information",
+        "changePassword": "Change Password",
+        "fields": {
+            "username": "Username",
+            "email": "Email",
+            "fullName": "Full Name",
+            "currentPassword": "Current Password",
+            "newPassword": "New Password",
+            "confirmPassword": "Confirm Password"
+        },
+        "updateSuccess": "Profile updated successfully",
+        "passwordChangeSuccess": "Password changed successfully",
+        "passwordMismatch": "Passwords do not match"
+    },
+    "settings": {
+        "title": "Settings",
+        "subtitle": "Configure your hotel system",
+        "tabs": {
+            "company": "Company",
+            "regional": "Regional",
+            "system": "System"
+        },
+        "company": {
+            "title": "Company Information",
+            "subtitle": "Details about your organization.",
+            "name": "Company Name",
+            "address": "Address",
+            "phone": "Phone",
+            "email": "Email",
+            "website": "Website",
+            "taxId": "Tax ID",
+            "logo": "Company Logo",
+            "removeLogo": "Remove logo",
+            "uploadLogo": "Upload Logo",
+            "logoHint": "PNG or JPG up to 2MB. Recommended size: 200x200px."
+        },
+        "regional": {
+            "title": "Regional Settings",
+            "subtitle": "Configure locale, currency, and time.",
+            "language": "Language",
+            "currency": "Currency",
+            "timezone": "Time Zone",
+            "dateFormat": "Date Format",
+            "lang": {
+                "en": "English",
+                "es": "Spanish",
+                "fr": "French",
+                "de": "German"
+            }
+        },
+        "system": {
+            "title": "System Preferences",
+            "subtitle": "General system behavior and defaults.",
+            "checkInTime": "Default Check-in Time",
+            "checkOutTime": "Default Check-out Time",
+            "maxGuests": "Max Guests per Room",
+            "onlineBookings": "Enable Online Bookings",
+            "enableOnlineBookingsDesc": "Allow guests to book rooms directly from your website.",
+            "sessionTimeout": "Session Timeout"
+        },
+        "general": "General",
+        "appearance": "Appearance",
+        "notifications": "Notifications",
+        "language": "Language",
+        "theme": {
+            "label": "Theme",
+            "light": "Light",
+            "dark": "Dark",
+            "auto": "Auto"
+        },
+        "currency": {
+            "label": "Currency",
+            "usd": "Dollar (USD)",
+            "eur": "Euro (EUR)",
+            "mxn": "Mexican Peso (MXN)"
+        },
+        "dateFormat": {
+            "label": "Date Format",
+            "ddmmyyyy": "DD/MM/YYYY",
+            "mmddyyyy": "MM/DD/YYYY",
+            "yyyymmdd": "YYYY-MM-DD"
+        },
+        "saveSuccess": "Settings saved successfully",
+        "noData": "No settings found",
+        "noDataDesc": "The settings could not be loaded. Please try again."
+    },
+    "login": {
+        "title": "Sign In",
+        "subtitle": "Hotel Management System",
+        "username": "Username or Email",
+        "password": "Password",
+        "rememberMe": "Remember me",
+        "forgotPassword": "Forgot your password?",
+        "signIn": "Sign In",
+        "invalidCredentials": "Invalid credentials",
+        "loginSuccess": "Login successful"
+    },
+    "navbar": {
+        "notifications": "Notifications",
+        "profile": "Profile",
+        "settings": "Settings",
+        "logout": "Logout",
+        "language": {
+            "label": "Language",
+            "es": "Español",
+            "en": "English"
+        }
+    }
+}

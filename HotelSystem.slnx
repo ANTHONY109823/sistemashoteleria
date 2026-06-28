@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/HotelSystem.API/HotelSystem.API.csproj" />
+    <Project Path="src/HotelSystem.Application/HotelSystem.Application.csproj" />
+    <Project Path="src/HotelSystem.Domain/HotelSystem.Domain.csproj" />
+    <Project Path="src/HotelSystem.Infrastructure/HotelSystem.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/HotelSystem.UnitTests/HotelSystem.UnitTests.csproj" />
+  </Folder>
+</Solution>

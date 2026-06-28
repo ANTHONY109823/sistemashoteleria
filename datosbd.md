@@ -1,0 +1,1 @@
+"DefaultConnection": "Server=VITODEV;Database=MiHoteleriaDB;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=true"
