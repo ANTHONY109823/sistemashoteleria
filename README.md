@@ -1,4 +1,4 @@
-﻿# Sistema de Hoteleria
+# Sistema de Hoteleria
 
 Sistema de gestion hotelera con backend en ASP.NET Core y frontend en React + Vite + TypeScript.
 
@@ -27,3 +27,9 @@ dotnet run
 cd src/HotelSystem.Web
 npm install
 npm run dev
+
+## Documentacion
+
+- especificaciontecnica.md
+- plantrabajo.md
+- datosbd.md
